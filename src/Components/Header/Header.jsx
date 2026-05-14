@@ -1,12 +1,15 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import group from "../../assets/Group.png";
+import './Header.css';
+
+
 
 const Header = () => {
-  const { t, i18n } = useTranslation(); // Hookni chaqirish
+  const {t, i18n } = useTranslation(); 
 
   const handleChangeLanguage = (event) => {
-    i18n.changeLanguage(event.target.value);
+   i18n.changeLanguage(event.target.value);
   };
 
   return (
@@ -23,11 +26,11 @@ const Header = () => {
             <a href="#">{t("header.Blog")}</a>
           </div>
 
-          <select onChange={handleChangeLanguage} value={i18n.language}>
+          <select onChange={handleChangeLanguage}>
             <option value="uz">uz</option>
-            <option value="ru">rus</option>
-            <option value="eng">eng</option>
-          </select>
+            <option value="ru">ru</option>
+            <option value="en">en</option>
+             </select>
         </div>
       </div>
     </header>
