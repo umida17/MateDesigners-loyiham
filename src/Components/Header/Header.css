@@ -13,13 +13,13 @@
 }
 .header{
     background: #282829;
+      margin-bottom: 120px;
 }
 
 .header-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-     margin-bottom: 120px;
 }
 
 .home{

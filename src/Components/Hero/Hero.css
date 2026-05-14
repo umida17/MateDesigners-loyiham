@@ -1,0 +1,48 @@
+.are{
+     font-weight: 500;
+     font-size: 88px;
+     line-height: 93px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 auto;
+    width: 700px;
+    margin-bottom: 115px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 60px;
+    
+}
+.card{
+    width: 390px;
+     border: 1px solid silver;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     border-bottom-left-radius: 6px;
+     border-bottom-right-radius: 6px;
+}
+.harf{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.ghost{
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.all{
+     font-weight: 400;
+     font-size: 15px;
+     line-height: 23px;
+    letter-spacing: 0%;
+     width: 100%;
+     text-align: center;
+}
