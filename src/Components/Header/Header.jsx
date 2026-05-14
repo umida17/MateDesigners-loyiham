@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-import group from "../assets/Group.png";
+import group from "../../assets/Group.png";
 const Header = () => {
   return (
     <div>
