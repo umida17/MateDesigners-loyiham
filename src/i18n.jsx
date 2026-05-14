@@ -1,22 +1,25 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
+
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
-
+   
 i18n
-  .use(Backend)
-  .use(LanguageDetector)
-  .use(initReactI18next)
-  .init({
+     .use(Backend)
+    .use(LanguageDetector)
+   .use(initReactI18next)
+    .init({
     fallbackLng: 'en',
-    debug: true, // Konsolda xatoni ko'rsatadi
+    debug: true,
+
     interpolation: {
-      escapeValue: false,
+      escapeValue: false,  
     },
-    backend: {
-      // Standart yo'l: public/locales/{{lng}}.json
-      loadPath: '/locales/{{lng}}.json',
+
+   backend: {
+       loadPath: '/locales/{{lng}}/translation.json', 
     }
   });
+
 
 export default i18n;

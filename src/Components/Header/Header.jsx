@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <header>
+    <header className='header'>
       <div className="container">
         <div className="header-container">
           <img src={group} alt="Logo" />
@@ -24,13 +24,14 @@ const Header = () => {
             <a href="#">{t("header.Services")}</a>
             <a href="#">{t("header.Work")}</a>
             <a href="#">{t("header.Blog")}</a>
-          </div>
+         
 
-          <select onChange={handleChangeLanguage}>
+          <select name="" id="" onChange={handleChangeLanguage} value={i18n.language}>
             <option value="uz">uz</option>
             <option value="ru">ru</option>
             <option value="en">en</option>
              </select>
+             </div>
         </div>
       </div>
     </header>

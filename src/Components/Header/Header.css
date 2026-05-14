@@ -11,3 +11,22 @@
     margin: 0 auto;
     padding: 15px;
 }
+.header{
+    background: #282829;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+a{
+    color: white;
+}
