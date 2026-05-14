@@ -1,0 +1,18 @@
+footer{
+    background: #282829;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+a{
+    color: white;
+}

@@ -40,7 +40,7 @@ const Hero = () => {
 
                 </div>
 
-                <div className="cards">
+                <div className="cardslar">
                   <div className="card">
                   <img className='harf' src={daraxt} alt="" />
                   <h3 className='ghost'>Ghost UXWriter</h3>
