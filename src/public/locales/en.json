@@ -1,9 +1,9 @@
 {
    "header": {
     "Home": "Home",
-    "About": "About Us",
-    "Services": "Services",
+    "About":"About Us",
+    "Services":"Services",
     "Work": "Our Work",
-    "Work": "Blog"
+    "Blog": "Blog"
 }
 }

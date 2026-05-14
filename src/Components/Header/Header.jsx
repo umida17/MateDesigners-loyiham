@@ -1,7 +1,10 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react';
 import group from "../../assets/Group.png";
 import './Header.css';
+import i18n from '../../i18n';
+import { useTranslation } from 'react-i18next';
+
 
 
 

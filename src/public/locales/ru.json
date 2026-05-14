@@ -1,8 +1,8 @@
 {
     "header": {
     "Home": "Главная",
-    "About": "О нас",
-    "Services": "Услуги",
+    "About":"О нас",
+    "Services":"Услуги",
     "Work": "Работы",
     "Blog": "Блог"
 }
