@@ -16,3 +16,6 @@ footer{
 a{
     color: white;
 }
+a:hover{
+    color: red;
+}
